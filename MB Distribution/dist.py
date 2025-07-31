@@ -66,8 +66,9 @@ plt.ylabel("Probability density")
 plt.title("MPCD Speed Distribution")
 plt.legend()
 plt.grid()
-plt.show()
 plt.savefig("Velocity Distribution.png",dpi=300)
+plt.show()
+
 
 position_history=np.array(position_history) #For animating the particle movement
 
