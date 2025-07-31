@@ -67,12 +67,13 @@ plt.title("MPCD Speed Distribution")
 plt.legend()
 plt.grid()
 plt.show()
-position_history=np.array(position_history)
+plt.savefig("Velocity Distribution.png",dpi=300)
+
+position_history=np.array(position_history) #For animating the particle movement
 
 
 
-# Assuming position_history has shape (10, 10000, 2)
-# You MUST have position_history already defined
+
 
 fig, ax = plt.subplots(figsize=(6, 6))
 
